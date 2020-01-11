@@ -1,0 +1,43 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Mocha Tests</title>
+  <link href="lib/mocha.css" rel="stylesheet" />
+</head>
+
+<body>
+
+
+  <!-- 👍 YOUR HTML HERE 👍 -->
+
+  <buton><img src="http://www.mangauk.com/wordpress/wp-content/uploads/2017/01/MMPR_Still04.jpg" id="inn" onClick="">
+  </buton>
+
+  <buton><img src="https://i.ebayimg.com/images/g/9ysAAOxy~ilSOypK/s-l1600.jpg" id="dagger" onClick=""></buton>
+  <buton><img src="https://f.jwwb.nl/public/v/x/b/temp-wltlhxxdyuizehanojqd/uq4vju/LouisVuittonNeverfull.jpg" id="bag"
+      onClick=""></buton>
+
+
+  <buton><img
+      src="https://assets.newatlas.com/dims4/default/7168355/2147483647/strip/true/crop/2000x1334+0+0/resize/1160x774!/quality/90/?url=https%3A%2F%2Fassets.newatlas.com%2F74%2F9a%2Fc39b98634765877306b4468a6323%2Fdepositphotos-184911184-l-2015.jpg"
+      id="bag" onClick="rest"></buton>
+
+
+  <!-- I RECOMMEND YOU LEAVE THE REST UNTOUCHED -->
+  <button onclick="mocha.checkLeaks(); mocha.run();">Run the tests!</button>
+
+  <div id="mocha">
+    <!-- MOCHA TEST FEEDBACK WILL BE RENDERED HERE -->
+  </div>
+
+  <script src="lib/chai.js"></script>
+  <script src="lib/mocha.js"></script>
+  <script src="lib/sinon.js"></script>
+  <script>mocha.setup('bdd')</script>
+  <script src="YOUR_JAVASCRIPT_HERE.js"></script>
+  <script src="lib/game_logic.test.js"></script>
+
+</body>
+
+</html>
